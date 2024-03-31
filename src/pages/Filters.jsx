@@ -57,7 +57,7 @@ const Filters = () => {
     setFilterMenu(!filterMenu)
   }
   const filterMenuClass = filterMenu ? 'block transition duration-1000 ease-in' : 'xs:hidden md:block transition duration-1000 ease-in'
-  const filterMenuClass2=`${filterMenu ? 'w-full h-full' : 'w-[0px] h-[0px]'} transition duration-100 ease bg-black opacity-50 absolute left-0 bottom-0 right-0 top-0 z-0 `
+  const filterMenuClass2=`${filterMenu ? 'xs:w-full h-full' : 'xs:w-[0px] h-[0px]'} md:w-[0px] md:h-[0px] transition duration-100 ease bg-black opacity-50 absolute left-0 bottom-0 right-0 top-0 z-0 `
   return (
     <div className="my-5">
       <Container>
